@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libimobiledevice", "libimobiledevice\libimobiledevice.vcxproj", "{6E0CDAC2-2917-4759-9E82-6CC4947907D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{A3E672E4-2F08-43CD-AF41-4B6A27D21158}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "idevice_id", "tools\idevice_id\idevice_id.vcxproj", "{AD0399B5-54EE-4281-A393-7E6E29BE9F96}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libusbmuxd", "libusbmuxd\libusbmuxd.vcxproj", "{7DF2BBE3-BC17-44D9-84C1-82AD8622F06F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libplist", "libplist\libplist.vcxproj", "{CB351D70-5AD5-4B5A-986A-B75BBFA2F37F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ideviceinstaller", "tools\ideviceinstaller\ideviceinstaller.vcxproj", "{933FB7CE-E308-4E90-B1F5-EA3671584912}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ideviceinfo", "tools\ideviceinfo\ideviceinfo.vcxproj", "{6FB79093-8F2F-4FE7-9684-26D582325DC9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "idevicebackup2", "tools\idevicebackup2\idevicebackup2.vcxproj", "{54C40AA6-3EE0-4E6A-B004-59072CE7F14D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E0CDAC2-2917-4759-9E82-6CC4947907D5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6E0CDAC2-2917-4759-9E82-6CC4947907D5}.Debug|Win32.Build.0 = Debug|Win32
+		{6E0CDAC2-2917-4759-9E82-6CC4947907D5}.Release|Win32.ActiveCfg = Release|Win32
+		{6E0CDAC2-2917-4759-9E82-6CC4947907D5}.Release|Win32.Build.0 = Release|Win32
+		{AD0399B5-54EE-4281-A393-7E6E29BE9F96}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AD0399B5-54EE-4281-A393-7E6E29BE9F96}.Debug|Win32.Build.0 = Debug|Win32
+		{AD0399B5-54EE-4281-A393-7E6E29BE9F96}.Release|Win32.ActiveCfg = Release|Win32
+		{AD0399B5-54EE-4281-A393-7E6E29BE9F96}.Release|Win32.Build.0 = Release|Win32
+		{7DF2BBE3-BC17-44D9-84C1-82AD8622F06F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7DF2BBE3-BC17-44D9-84C1-82AD8622F06F}.Debug|Win32.Build.0 = Debug|Win32
+		{7DF2BBE3-BC17-44D9-84C1-82AD8622F06F}.Release|Win32.ActiveCfg = Release|Win32
+		{7DF2BBE3-BC17-44D9-84C1-82AD8622F06F}.Release|Win32.Build.0 = Release|Win32
+		{CB351D70-5AD5-4B5A-986A-B75BBFA2F37F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CB351D70-5AD5-4B5A-986A-B75BBFA2F37F}.Debug|Win32.Build.0 = Debug|Win32
+		{CB351D70-5AD5-4B5A-986A-B75BBFA2F37F}.Release|Win32.ActiveCfg = Release|Win32
+		{CB351D70-5AD5-4B5A-986A-B75BBFA2F37F}.Release|Win32.Build.0 = Release|Win32
+		{933FB7CE-E308-4E90-B1F5-EA3671584912}.Debug|Win32.ActiveCfg = Debug|Win32
+		{933FB7CE-E308-4E90-B1F5-EA3671584912}.Debug|Win32.Build.0 = Debug|Win32
+		{933FB7CE-E308-4E90-B1F5-EA3671584912}.Release|Win32.ActiveCfg = Release|Win32
+		{933FB7CE-E308-4E90-B1F5-EA3671584912}.Release|Win32.Build.0 = Release|Win32
+		{6FB79093-8F2F-4FE7-9684-26D582325DC9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6FB79093-8F2F-4FE7-9684-26D582325DC9}.Debug|Win32.Build.0 = Debug|Win32
+		{6FB79093-8F2F-4FE7-9684-26D582325DC9}.Release|Win32.ActiveCfg = Release|Win32
+		{6FB79093-8F2F-4FE7-9684-26D582325DC9}.Release|Win32.Build.0 = Release|Win32
+		{54C40AA6-3EE0-4E6A-B004-59072CE7F14D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{54C40AA6-3EE0-4E6A-B004-59072CE7F14D}.Debug|Win32.Build.0 = Debug|Win32
+		{54C40AA6-3EE0-4E6A-B004-59072CE7F14D}.Release|Win32.ActiveCfg = Release|Win32
+		{54C40AA6-3EE0-4E6A-B004-59072CE7F14D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD0399B5-54EE-4281-A393-7E6E29BE9F96} = {A3E672E4-2F08-43CD-AF41-4B6A27D21158}
+		{933FB7CE-E308-4E90-B1F5-EA3671584912} = {A3E672E4-2F08-43CD-AF41-4B6A27D21158}
+		{6FB79093-8F2F-4FE7-9684-26D582325DC9} = {A3E672E4-2F08-43CD-AF41-4B6A27D21158}
+		{54C40AA6-3EE0-4E6A-B004-59072CE7F14D} = {A3E672E4-2F08-43CD-AF41-4B6A27D21158}
+	EndGlobalSection
+EndGlobal
